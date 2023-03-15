@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    background-color: rgb(245, 237, 227);
+}
+.cabecalho{
+    display: flex;
+    padding: 1% 0 0 2%;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: rgb(180, 25, 25);
+}
+.cabecalho-texto{
+   display: flex;
+   align-items: center;
+   
+}
+.bloco_conteudo{
+    display: flex;
+    gap: 22px;
+    padding: 79px 0px 0px 120px ;    
+}
+.bloco_conteudo_texto{
+    display: flex;
+    align-items: center;    
+    font-family: 'Krona One', sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+    width: 895px;
+    word-wrap: break-word;
+    text-align:justify;
+    text-decoration: none;
+    padding-top: 11px;
+    color: #850000;
+}
+.imagem{
+    border-radius: 1rem;
+}
+.imagem:hover{
+    -moz-transform: scale(1.01);
+	-webkit-transform: scale(1.01);
+	transform: scale(1.02);
+}
+.tabela{
+    padding: 60px 0px 0px 200px;
+}
+.Link{
+    padding: 1rem 0rem 0rem 4.5rem;
+    
+    
+}
+.Link_texto{
+    color: #c73d16;
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    padding: 23px;
+    margin-bottom: 11px;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+}
